@@ -1,0 +1,23 @@
+{
+  "name": "URL QR",
+  "version": "1.0",
+  "description": "displays qr code for current page url",
+  "permissions": ["tabs"],
+  "options_page": "options.html",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/qr16.png",
+      "32": "images/qr32.png",
+      "48": "images/qr48.png",
+      "128": "images/qr128.png"
+    }
+  },
+  "icons": {
+    "16": "images/qr16.png",
+    "32": "images/qr32.png",
+    "48": "images/qr48.png",
+    "128": "images/qr128.png"
+  },
+  "manifest_version": 2
+}
